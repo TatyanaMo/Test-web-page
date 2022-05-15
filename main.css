@@ -1,0 +1,79 @@
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: coral;
+}
+
+.header {
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+    .menu_item {
+        color: dimgray;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+.first_col {
+    width: 200px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.second_col{
+    width: 710px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.third_col{
+    width: 250px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: cornsilk;
+}
+
+    .copyright_text {
+        width: 250px;
+    }
+
+.content {
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+}
+
+.chat {
+    border: 1px solid #6212b0;
+    width: 600px;
+}
+
+.msg {
+    color: grey;
+    margin-left: 15px;
+}
