@@ -27,28 +27,41 @@ display: flex;
     }
 
 .first_col {
-    width: 200px;
+    width: 249px;
     min-height: 500px;
     background-color: white;
     border-radius: 5px;
     text-align: center;
+    color: dimgray;
 }
 
-.second_col{
+    .image_col_1 {
+        width: 58px;
+        margin-top: 38px;
+    }
+
+.second_col {
     width: 710px;
     margin-left: 20px;
     background-color: white;
     border-radius: 5px;
     text-align: center;
+    color: dimgray;
 }
 
-.third_col{
-    width: 250px;
+.third_col {
+    width: 249px;
     margin-left: 20px;
     background-color: white;
     border-radius: 5px;
     text-align: center;
+    color: dimgray;
 }
+    .image_col_3 {
+        width: 76px;
+        margin-top: 33px;
+    }
+
 
 .copyright{
     display: flex;
